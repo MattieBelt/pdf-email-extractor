@@ -1,0 +1,17 @@
+{
+  "name": "pdf-email-extractor",
+  "private": true,
+  "version": "1.0.0",
+  "description": "An email exctraction script for pdf files",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo 'test'"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "better-queue": "^3.8.10",
+    "csv-writer": "^1.6.0",
+    "pdf-parse": "^1.1.1"
+  }
+}
